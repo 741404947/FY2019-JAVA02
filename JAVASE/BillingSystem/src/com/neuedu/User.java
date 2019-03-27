@@ -6,6 +6,13 @@ public class User {
 	String name;
 	String email;
 	
+	public User(String username, String password, String name, String email) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.name = name;
+		this.email = email;
+	}
 	public String getUsername() {
 		return username;
 	}

@@ -4,5 +4,5 @@ public interface UserView {
 	public void login();
 	
 	public void register();
-	
+
 }
